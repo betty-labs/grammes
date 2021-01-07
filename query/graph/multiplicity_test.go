@@ -23,7 +23,7 @@ package graph
 import (
 	"testing"
 
-	m "github.com/northwesternmutual/grammes/query/multiplicity"
+	m "github.com/betty-labs/grammes/query/multiplicity"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

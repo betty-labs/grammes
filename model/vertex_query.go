@@ -21,9 +21,9 @@
 package model
 
 import (
-	"github.com/northwesternmutual/grammes/gremerror"
+	"github.com/betty-labs/grammes/gremerror"
 
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"github.com/betty-labs/grammes/query/traversal"
 )
 
 var newTrav = traversal.NewTraversal
