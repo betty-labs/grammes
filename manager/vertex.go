@@ -21,7 +21,7 @@
 package manager
 
 import (
-	"github.com/northwesternmutual/grammes/logging"
+	"github.com/betty-labs/grammes/logging"
 )
 
 // vertexQuery is the manager responsible for

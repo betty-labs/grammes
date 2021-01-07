@@ -4,7 +4,7 @@
 
 # Grammes
 
-[![Build Status](https://travis-ci.com/northwesternmutual/grammes.svg?branch=master)](https://travis-ci.com/northwesternmutual/grammes) [![Coverage Status](https://coveralls.io/repos/github/northwesternmutual/grammes/badge.svg?branch=master)](https://coveralls.io/github/northwesternmutual/grammes?branch=master) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/northwesternmutual/grammes) [![Go Report Card](https://goreportcard.com/badge/github.com/northwesternmutual/grammes)](https://goreportcard.com/report/github.com/northwesternmutual/grammes)
+[![Build Status](https://travis-ci.com/northwesternmutual/grammes.svg?branch=master)](https://travis-ci.com/northwesternmutual/grammes) [![Coverage Status](https://coveralls.io/repos/github/northwesternmutual/grammes/badge.svg?branch=master)](https://coveralls.io/github/northwesternmutual/grammes?branch=master) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/betty-labs/grammes) [![Go Report Card](https://goreportcard.com/badge/github.com/betty-labs/grammes)](https://goreportcard.com/report/github.com/betty-labs/grammes)
 
 Grammes is an API/Wrapper for Gremlin and Janusgraph. It's written purely in Golang and allows for easy use of Gremlin without touching the Gremlin terminal.
 
@@ -40,7 +40,7 @@ You need to setup all of the following tools to run the service locally
 Begin by opening up a terminal or command prompt and clone the grammes repository.
 
 ```sh
-go get -u github.com/northwesternmutual/grammes
+go get -u github.com/betty-labs/grammes
 ```
 
 ---
@@ -52,7 +52,7 @@ go get -u github.com/northwesternmutual/grammes
 First off, direct your terminal to the Grammes' `scripts` directory.
 
 ```sh
-cd $GOPATH/src/github.com/northwesternmutual/grammes/scripts
+cd $GOPATH/src/github.com/betty-labs/grammes/scripts
 ```
 
 In here you can find the `gremlin.sh` and `janusgraph.sh` scripts. To set up JanusGraph just run the `janusgraph.sh` script.
@@ -68,8 +68,8 @@ To make sure that everything is running try running `gremlin.sh`.
 ```sh
 $ ./gremlin.sh
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/Users/<username>/projects/nm/gocode/src/github.com/northwesternmutual/grammes/bin/janusgraph-0.3.1-hadoop2/lib/slf4j-log4j12-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: Found binding in [jar:file:/Users/<username>/projects/nm/gocode/src/github.com/northwesternmutual/grammes/bin/janusgraph-0.3.1-hadoop2/lib/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/<username>/projects/nm/gocode/src/github.com/betty-labs/grammes/bin/janusgraph-0.3.1-hadoop2/lib/slf4j-log4j12-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/<username>/projects/nm/gocode/src/github.com/betty-labs/grammes/bin/janusgraph-0.3.1-hadoop2/lib/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 15:05:59 WARN  org.apache.hadoop.util.NativeCodeLoader  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
@@ -128,7 +128,7 @@ package main
 import (
     "log"
 
-    "github.com/northwesternmutual/grammes"
+    "github.com/betty-labs/grammes"
 )
 
 func main() {
@@ -159,7 +159,7 @@ package main
 import (
     "log"
 
-    "github.com/northwesternmutual/grammes"
+    "github.com/betty-labs/grammes"
 )
 
 func main() {

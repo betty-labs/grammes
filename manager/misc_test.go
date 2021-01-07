@@ -27,7 +27,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes/logging"
+	"github.com/betty-labs/grammes/logging"
 )
 
 func TestDropAll(t *testing.T) {

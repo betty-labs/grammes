@@ -23,7 +23,7 @@ package traversal
 import (
 	"fmt"
 
-	"github.com/northwesternmutual/grammes/query/scope"
+	"github.com/betty-labs/grammes/query/scope"
 )
 
 // http://tinkerpop.apache.org/docs/current/reference/#count-step

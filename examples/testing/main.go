@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 
-	"github.com/northwesternmutual/grammes/logging"
+	"github.com/betty-labs/grammes/logging"
 
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/examples/exampleutil"
+	"github.com/betty-labs/grammes"
+	"github.com/betty-labs/grammes/examples/exampleutil"
 	"go.uber.org/zap"
 )
 

@@ -3,6 +3,8 @@
 .DS_Store
 .vscode
 .idea
+
+>>>>>>> 33aa29e (Rename paths)
 # Directories
 vendor
 bin

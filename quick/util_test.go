@@ -25,9 +25,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/northwesternmutual/grammes"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/manager"
+	"github.com/betty-labs/grammes"
+	"github.com/betty-labs/grammes/logging"
+	"github.com/betty-labs/grammes/manager"
 )
 
 func TestUnexportedExecuteQuery(t *testing.T) {
